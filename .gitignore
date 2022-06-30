@@ -1,0 +1,53 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.log
+OUTPUT/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/bin/
+
+### Eclipse ###
+.idea
+*.iml
+target
+classes
+.project
+.classpath
+.settings/
+*.classpath
+.pydevproject
+*.versionsBackup
+.metadata
+
+### Macos
+*.DS_Store
+
+### Dependency reduced
+dependency-reduced-pom.xml
+config/configuration.properties
+docker/download/**
+docker/ingestionPath/**
+docker/workingPath/**
+docker/rejectionPath/**
+
